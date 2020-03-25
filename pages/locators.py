@@ -19,3 +19,13 @@ class ProductPageLocators():
     BASKET_PRODUCT_NAME = (By.XPATH, "//div[@id='messages']/div[1]/div/strong")
     PRODUCT_NAME = (By.XPATH, "//h1")
     PRODUCT_PRICE = (By.CSS_SELECTOR, "[class='price_color']")
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@id='messages']/div[1]/div[@class='alertinner ']")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    BASKET_LINK = (By.XPATH, "//span/a")
+    BASKET_ADDED_ITEMS = (By.XPATH, "//div[@class='row']/h2")
+    EMPTY_BASKET_MESSAGE = (By.XPATH, "//div/p")
+
