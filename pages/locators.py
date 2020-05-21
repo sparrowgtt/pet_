@@ -11,6 +11,7 @@ class LoginPageLocators():
     REGISTER_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
     REGISTER_PASSWORD = (By.CSS_SELECTOR, "#id_registration-password1")
     REGISTER_PASSWORD_CONFIRM = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTER_BUTTON = (By.CSS_SELECTOR, "[name='registration_submit']")
 
 
 class ProductPageLocators():
@@ -28,4 +29,4 @@ class BasePageLocators():
     BASKET_LINK = (By.XPATH, "//span/a")
     BASKET_ADDED_ITEMS = (By.XPATH, "//div[@class='row']/h2")
     EMPTY_BASKET_MESSAGE = (By.XPATH, "//div/p")
-
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
